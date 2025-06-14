@@ -1,0 +1,24 @@
+{
+  "name": "kbra",
+  "version": "1.0.0",
+  "description": "Person Express API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarysh/kbra.git"
+  },
+  "keywords": [],
+  "author": "Rarysh Costa Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rarysh/kbra/issues"
+  },
+  "homepage": "https://github.com/rarysh/kbra#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
