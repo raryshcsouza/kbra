@@ -4,7 +4,12 @@
   "description": "Person Express API",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "repository": {
     "type": "git",
@@ -18,7 +23,10 @@
   },
   "homepage": "https://github.com/rarysh/kbra#readme",
   "dependencies": {
-    "body-parser": "^2.2.0",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1",
+    "vitest": "^3.2.3"
   }
 }
